@@ -42,7 +42,7 @@ public class flipkart {
 		
 		WebElement searchBar= driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
 		searchBar.sendKeys("Muscle Tech Phase 8 ");
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 	
 		WebElement searchClick= driver.findElement(By.xpath("//div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']"));
 		searchClick.click();
